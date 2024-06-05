@@ -1,0 +1,104 @@
+
+
+
+.payer
+{
+    color: black;
+    text-align: center;
+    height: 45vw;
+    display: flex;
+    margin-top: -3vw;
+    width: 100%;
+}
+
+.payer .titre3
+{
+    display: flex;
+    align-items: center;
+    margin-left: 45%;
+}
+
+.container .operateur
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4vw;
+}
+
+.container .operateur img:hover
+{
+    border: 1px solid rgb(8, 150, 215);
+}
+
+.container .operateur img
+{
+    width: 30%;
+    margin: 1%;
+    height: 20vw;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(68, 160, 217, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.containers
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.containers .form
+{
+    width: 59%;
+}
+
+/* Mvola */
+
+.mvola img
+{
+    width: 100%;
+    height: 20vw;
+}
+
+/* Airtel */
+.airtel img
+{
+    width: 40%;
+    height: 20vw;
+}
+
+/* Orange */
+.orange img
+{
+    width: 40%;
+    height: 20vw;
+}
+
+.form form
+{
+    margin-top: 5vw;
+}
+
+.form form button
+{
+    float: right;
+    width: 40%;
+    height: 3vw;
+    margin-right: 20%;
+    border: 0;
+    background-color: rgb(26, 95, 179);
+    color: white;
+    border-radius: 10px;
+}
+
+
+.form form label
+{
+    font-weight: 600;
+}
+
+.form form input
+{
+    width: 80%;
+    height: 2vw;
+    text-align: center;
+}

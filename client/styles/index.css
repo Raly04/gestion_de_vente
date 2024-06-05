@@ -1,0 +1,213 @@
+.contenu
+{
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenu .txt1
+{
+    width: 45%;
+    margin-left: 6%;
+    margin-top: 2vw;
+}
+
+.contenu .txt1 h1
+{
+    font-size: 70px;
+}
+
+.contenu .txt1 span
+{
+    color: rgb(7, 75, 112);
+}
+
+.contenu .txt1 .aide
+{
+    width: 100%;
+    margin-top: 2vw;
+}
+
+.contenu .txt1 .aide button
+{
+    margin: 3%;
+    margin-top: 2vw;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contenu .txt1 .aide img
+{
+    width: 100%;
+    height: 25vw;
+}
+
+.contenu .txt1 .section
+{
+    width: 90%;
+    border-radius: 10px;
+    background-color: rgb(222, 220, 217);
+    padding: 2vw;
+}
+
+.contenu .txt1 .section h2
+{
+    background: linear-gradient(90deg,rgb(43, 43, 210), rgb(209, 40, 40),violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contenu .txt1 .aide .btn-send
+{
+    background-image: linear-gradient(to left, rgb(188, 34, 34), blue);
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    height: 4vw;
+    margin-left: 25%;
+    border: 0;
+}
+
+.contenu .image1 img
+{
+    width: 100%;
+    float: right;
+}
+
+.contenu .image1
+{
+    width: 55%;
+    float: right;
+    margin-right: 1vw;
+}
+
+.contenu .section2 .image1 img
+{
+    width: 90%;
+    float: right;
+}
+
+.contenu .section2 .image1
+{
+    width: 60%;
+    float: right;
+}
+
+.contenu .section2 .vision
+{
+    width: 70%;
+    margin-left: 10%;
+    border-radius: 10px;
+    background-color: rgb(222, 220, 217);
+    padding: 2vw;
+    margin-top: 26vw;
+}
+
+.contenu .section2 .vision h2
+{
+    background: linear-gradient(90deg,rgb(43, 43, 210), rgb(209, 40, 40),violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contenu .section2 img
+{
+    width: 80%;
+    margin-right: 10%;
+}
+
+.informer
+{
+    width: 88%;
+    margin-left: 6%;
+    background-color: rgb(7, 75, 112);
+    text-align: center;
+    margin-bottom: 3vw;
+    border-radius: 5px;
+    margin-top: 3vw;
+}
+
+.informer h2
+{
+    color: white;
+    margin-top: 3%;
+    font-size: 35px;
+}
+
+.informer p
+{
+    width: 60%;
+    margin-left: 20%;
+    color: white;
+}
+
+.informer form
+{
+    margin-top: 2vw;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 2vw;
+}
+
+.informer form input
+{
+    width: 60%;
+    height: 2.2vw;
+    border-radius: 5px;
+    border: 0;
+    text-align: center;
+}
+
+.informer form button
+{
+    width: 30%;
+    height: 2.4vw;
+    background-color: rgb(5, 46, 68);
+    color: white;
+    border-radius: 3px;
+    border: 0;
+}
+
+
+.program
+{
+    margin-left: 10%;
+    margin-bottom: 2vw;
+}
+
+.program a
+{
+    color: blue;
+    text-decoration: none;
+}
+
+.program a:hover
+{
+    color: black;
+    text-decoration: underline;
+}
+
+.blur
+{
+  height: 10vw;
+  background-image: linear-gradient(to top, rgb(34, 120, 211) ,red,rgb(12, 43, 183));
+  flex-shrink: 0; 
+  fill: #B64D20;
+  filter: blur(62px); 
+  float: left;
+  z-index: -10;
+}
+
+.blur2
+{
+  width: 10%;
+  height: 10vw;
+  background-image: linear-gradient(to top, rgb(34, 120, 211) ,rgb(12, 43, 183));
+  flex-shrink: 0; 
+  fill: #B64D20;
+  filter: blur(62px); 
+  float: left;
+  z-index: -10;
+  margin-top: -10vw;
+}

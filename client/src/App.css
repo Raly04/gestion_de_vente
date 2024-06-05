@@ -1,0 +1,40 @@
+.footer
+{
+  margin-top: 7vw;
+}
+
+.body2 table
+{
+  width: 70%;
+  margin-top: 5vw;
+  margin-left: 15%;
+}
+
+
+.body2 table th
+{
+  padding: 10px;
+  background-color: rgb(10, 6, 39);
+  color: white;
+}
+
+.body2 table td
+{
+  padding: 1vw;
+}
+
+.body1
+{
+  text-align: center;
+  height: 44vw;
+  width: 100%;
+  margin-top: -3vw;
+  display: flex;
+}
+
+.body1 h1
+{
+  display: flex;
+  align-items: center;
+  margin-left: 37%;
+}
